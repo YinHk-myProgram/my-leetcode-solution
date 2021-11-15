@@ -1,7 +1,7 @@
 /**
  * @param {number[]} nums
  * @return {number}
- * reference: 
+ * reference: http://web.ntnu.edu.tw/~algo/Subsequence.html#3
  */
 var lengthOfLIS = function(nums) {
     
