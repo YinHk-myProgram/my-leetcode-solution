@@ -8,6 +8,23 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
+
+/*
+  algorithm:
+  head:  1->2->3->4->5->null
+  assume that prev=1, curr=2 
+  use temp to store the following nodes
+  
+  1<->2  3->4->5->null
+  2->1->3->4->5
+  
+  2->1->3<->4 5
+  2->1 3->4   5
+     |    ^
+     |____|
+  2->1->4->3->5
+*/
+
 class Solution {
     public ListNode swapPairs(ListNode head) {
         //initial nodes
