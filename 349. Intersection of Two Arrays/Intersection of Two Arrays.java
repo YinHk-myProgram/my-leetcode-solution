@@ -13,7 +13,7 @@ class Solution {
     }
     
     public int[] intersection(int[] nums1, int[] nums2) {
-       for(int i:nums1) { //System.out.println(Arrays.asList(nums2).contains(i));
+       for(int i:nums1) { 
           if(linearSearch(nums2,i)){
             if(!arr.contains(i)){
                 arr.add(i); 
