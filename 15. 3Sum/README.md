@@ -1,5 +1,5 @@
 #### Algorithm
-
+sort the array in accending order first,\
 linear search for nums[i]+nums[front]+nums[rear]=0 \
 front is i + 1 for each iteration step \
 rear is nums.length-1
