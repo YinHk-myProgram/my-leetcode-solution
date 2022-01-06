@@ -14,8 +14,6 @@ class Solution {
         list.addAll(alist1);
         list.addAll(alist2);
         Collections.sort(list);
-        //System.out.println(list);
-       
         
         int index;
         
