@@ -28,7 +28,7 @@ class Solution {
         
         
         int length = 0;
-        
+        //store the key value pair in length-substring, compare the length and return the longest length
         for(Map.Entry<Integer, String> entry : map.entrySet()) {
             if(entry.getKey() > length)
                 length = entry.getKey();
