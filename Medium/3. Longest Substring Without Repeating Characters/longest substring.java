@@ -14,11 +14,9 @@ class Solution {
            for(int i=0; i<s.length(); i++) {
              
             String subStr = s.substring(i, i+1);
-            System.out.println(subStr);
             for(int j=i+1; j<s.length(); j++) {
                 if(!subStr.contains(s.substring(j, j+1))) {
                     subStr = s.substring(i, j+1);
-                    //map.put(j-i, subStr);  
                 } else {
                     map.put(j-i, subStr);
                     break;
