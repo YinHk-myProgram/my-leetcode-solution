@@ -34,7 +34,7 @@ var addTwoNumbers = function(l1, l2) {
         }
         sum += gap;
         list.next = new ListNode(sum%10);
-        gap = parseInt(sum/10);
+        gap = parseInt(sum/10);     //this will remove decimal and return the carry number for next recursion
         list = list.next;
         add(l1,l2,gap);
     }
