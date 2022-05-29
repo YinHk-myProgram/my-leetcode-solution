@@ -40,3 +40,10 @@ var addTwoNumbers = function(l1, l2) {
     }
    
 };
+
+
+
+// 195: 5->9->1, 321:  1->2->3
+// sum = 1+5 = 6, -> store 6
+// sum = 9+2 = 11 -> store 1, and carry 1
+// sum = 1+3 = 4 -> store 4+ 1 = 5
