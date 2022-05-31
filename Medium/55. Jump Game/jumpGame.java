@@ -1,4 +1,4 @@
-// exp: [3,2,3,0,0,1,1,2]
+// eg: [3,2,3,0,0,1,1,2]
 // using O(n) linear search, from back to front
 // set target position from the back, if exists index + nums[index] >= target position,
 // change target position to forward index position which fullfil above condition
