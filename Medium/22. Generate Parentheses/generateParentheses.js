@@ -1,9 +1,10 @@
 /**
  * @param {number} n
  * @return {string[]}
+ * using recurrsion to solve the problems
+ * Runtime: 82 ms, Memory Usage: 42.5 MB.
  */
 
-// using recurrsion to solve the problems
 
 var generateParenthesis = function(n) {
     
@@ -12,7 +13,7 @@ var generateParenthesis = function(n) {
     return stack;
 };
 
-function recurrsion(openCount, closeCount, str, stack, n) {
+const recurrsion = (openCount, closeCount, str, stack, n) => {
     
     // If open parenthese + close parenthese = 2n, then finish
     if(openCount === n && closeCount === n) {
